@@ -96,7 +96,7 @@ bool verificarEscolha(int vetor[8], int tamanho)
         }
         if (contador > 2)
         {
-            printf("\nEscolha inválida, só é permitido escolher apenas 2 cartas de cada tipo, tente novamente: \n");
+            printf("\nEscolha inválida, você deve escolher 2 cartas de cada tipo, tente novamente: \n");
             return false;
         }
     }
@@ -165,18 +165,21 @@ int main(int argc, char *argv[])
 
         // tela de abertura
         printf("Bem-vindo ao jogo de cartas\n\n");
+        printf("Essas são as cartas!\n\n");
         printf("##### ##### ##### ##### ##### ##### ##### #####\n");
         printf("#   # #   # #   # #   # #   # #   # #   # #   #\n");
         printf("# J # # Q # # K # # A # # J # # Q # # K # # A #\n");
         printf("#   # #   # #   # #   # #   # #   # #   # #   #\n");
         printf("##### ##### ##### ##### ##### ##### ##### #####\n\n");
 
-        printf("Pressione 'ENTER' para continuar.\n");
+        printf("Pressione 'ENTER' para esolher a ordem das cartas.\n");
         while (getchar() != '\n')
             ; // lê e descarta os caracteres do buffer até encontrar '\n'
 
         printf("JOGADOR 1:\n\n");
         printf("Escolha a ordem em que você jogará suas cartas:\n");
+        
+        
 
         do // estrutura de repetição para viabilizar a verificação da entrada do jogador e solicitar nova entrada em caso de erro
         {
@@ -195,7 +198,7 @@ int main(int argc, char *argv[])
         } while (!verificarEscolha(intCartasJ1, 8));
 
         // apresenta na tela a escolha do jogador
-        printf("\nA ordem das cartas escolhidas foram: \n");
+        printf("\nA ordem das cartas escolhidas do JOGADOR 1 foram: \n\n");
         printf("##### ##### ##### ##### ##### ##### ##### #####\n");
         printf("#   # #   # #   # #   # #   # #   # #   # #   #\n");
         for (j = 0; j < i; j++)
@@ -231,7 +234,7 @@ int main(int argc, char *argv[])
             }
         } while (!verificarEscolha(intCartasJ2, 8));
 
-        printf("\nA ordem das cartas escolhidas foram: \n");
+        printf("\nA ordem das cartas escolhidas do JOGADOR 2 foram: \n\n");
         printf("##### ##### ##### ##### ##### ##### ##### #####\n");
         printf("#   # #   # #   # #   # #   # #   # #   # #   #\n");
         for (j = 0; j < i; j++)
@@ -298,7 +301,15 @@ int main(int argc, char *argv[])
     // opção de loop para nova partida    
     printf("\nSe deseja jogar outra partida digite 'S', ou 'N' para sair\n");
     scanf(" %c", &repeat);   
-    } while (repeat == 'S' || 's'); // inicia nova partida ou encerra o programa
+    } while (repeat == 'S' || repeat == 's'); // inicia nova partida ou encerra o programa
+
+    printf("\n\nObrigado por jogar o JOGO DE CARTAS!\n\n");
+    printf("[Autores]\n");
+    printf("-Glauber Gouveia\n");
+    printf("-Hiosery Gabriel\n");
+    printf("-Larissa Hora\n");
+    printf("-Guilherme Guimarães\n\n\n");
 
     pthread_exit(NULL); // destrói a thread principal
+
 }
