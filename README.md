@@ -1,4 +1,4 @@
-# Jogo de Cartas 
+# :black_joker: Jogo de Cartas :black_joker:
 Projeto de MATA58 - Sistemas Operacionais (2023.1)
 
 Jogo de cartas utilizando semáforo e threads
@@ -11,7 +11,7 @@ Jogo de cartas utilizando semáforo e threads
 - [5. Link para a documentação do projeto](#link_doc)
 - [6. Equipe](#equipe)
 
-## 1. Execução do jogo: <a name = "execucao_do_jogo"></a>
+## :computer: 1. Execução do jogo: <a name = "execucao_do_jogo"></a>
    - 1.1 - Primeiramente, o usuário deve baixar ou clonar a pasta diretamento do github;
    - 1.2 - Com a pasta na máquina do usuário, deve localizar o arquivo "JogoCartas.c";
    - 1.3 - Confirmando a presença do arquivo na máquina, o usuário deverá abrir o terminal em seu computador;
@@ -20,7 +20,7 @@ Jogo de cartas utilizando semáforo e threads
    - 1.6 - Criado o executavel, o usuário deve executar o arquivo, para isso, deve digitar "./**_NomeDoExecutavel_**" e o jogo será iniciado.
    - 1.7 - Bem-vindo ao JOGO DE CARTAS!
 
-## 2. Manual de utilização: <a name = "manual_de_utilizacao"></a>
+## 2. :green_book: Manual de utilização: <a name = "manual_de_utilizacao"></a>
 ###### Entrada dos jogadores
    - 2.1 - Assim que for executado, o compilador gera o output na parte inferior da tela. Para iniciar o jogo, pressione a tecla "Enter";
    - 2.2 - Em seguida, o JOGADOR 1 deve inserir a ordem das cartas que escolher, a fim de acumular pontos derrotando o adversário no máximo de rodadas possível, definindo uma estratégia, ou contando com a "sorte"; 
@@ -35,7 +35,7 @@ Jogo de cartas utilizando semáforo e threads
         - 2.7.1 - Em caso de empate, a implementação do semáforo decide quem ganha a rodada.
    - 2.8 - Ao final de 8 rodadas um jogador é apontado como vencedor com base na soma de pontos em cada rodada. 
 
-## 3. Plano de ação: <a name = "plano_de_acao"></a>
+## :scroll: 3. Plano de ação: <a name = "plano_de_acao"></a>
 | Tópico | Data | Responsável | Status |
 | ------ | ---- | ----------- | ------ |
 | Estudar semáforos  | 14/04/2023  | Todos | Feito
@@ -51,13 +51,13 @@ Jogo de cartas utilizando semáforo e threads
 | Ajustar o README do github | 09/05/2023 | Larissa e Guilherme | Feito
 | Postagem no AVA | 11/05/2023 | Todos | Feito
 
-## 4. Link para o vídeo da Demo: <a name = "video_demo"></a>
+## :clapper: 4. Link para o vídeo da Demo: <a name = "video_demo"></a>
 https://youtu.be/y5WiFIvnVVc
-## 5. Link para a documentação do projeto: <a name = "link_doc"></a>
+## :bookmark_tabs: 5. Link para a documentação do projeto: <a name = "link_doc"></a>
 
 https://docs.google.com/document/d/1cyS5Gpt8nmxcoKUUpCo84hIPHsNS836XhwSgp_cwOr4/edit?usp=sharing
 
-## 6. Equipe: <a name = "equipe"></a>
+## :woman_technologist: 6. Equipe: <a name = "equipe"></a>
 
 Glauber Gouveia
 
