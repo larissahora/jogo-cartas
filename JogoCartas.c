@@ -164,8 +164,8 @@ int main(int argc, char *argv[])
         system("clear || cls"); // Limpa a tela do console
 
         // tela de abertura
-        printf("Bem-vindo ao jogo de cartas\n\n");
-        printf("Essas são as cartas!\n\n");
+        printf("Bem-vindo ao JOGO DE CARTAS!\n\n");
+        printf("Essas são as cartas.\n\n");
         printf("##### ##### ##### ##### ##### ##### ##### #####\n");
         printf("#   # #   # #   # #   # #   # #   # #   # #   #\n");
         printf("# J # # Q # # K # # A # # J # # Q # # K # # A #\n");
